@@ -1,0 +1,10 @@
+# Same chain with a tighter end-play spec, to show how the methods disagree.
+# The gap is the axial end play left for the shaft between the two bearing seats.
+# Format: name,nominal_mm,tolerance_mm,direction   (+1 widens the gap, -1 narrows it)
+spec,0.30,0.55
+housing_inner_width,77.00,0.10,+1
+bearing_left_width,15.00,0.06,-1
+bearing_right_width,15.00,0.06,-1
+gear_hub_length,30.00,0.05,-1
+spacer_left,7.30,0.05,-1
+spacer_right,9.30,0.05,-1
