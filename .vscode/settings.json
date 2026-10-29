@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.debugConfig": {
+        "args": ["data/gear_shaft_axial_tight.csv", "--samples", "100000"],
+        "cwd": "${workspaceFolder}"
+    }
+}
